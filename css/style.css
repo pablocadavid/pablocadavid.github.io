@@ -1882,3 +1882,8 @@ h4.modal-title {
 	}
 }
 /*-- /responsive design --*/
+
+/*  -- CUSTOM STYLES --  */
+.w3-banner-grid-right p {
+    color: white;
+}
