@@ -1884,6 +1884,9 @@ h4.modal-title {
 /*-- /responsive design --*/
 
 /*  -- CUSTOM STYLES --  */
+.w3-banner-img h3 {
+    font-size: 2em;
+}
 .w3-banner-grid-right p {
     color: white;
 }
@@ -1901,4 +1904,10 @@ h4.modal-title {
 .contact textarea {
     color: white;
     border: solid 1px white;
+}
+
+@media (max-width: 667px) {
+    .w3-banner-img p {
+        display: none;
+    }
 }
